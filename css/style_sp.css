@@ -14,10 +14,11 @@ body {
 }
 
 h1 {
-  font-size: 200%;
-  padding-left: 3.125%;
-  height: 39px;
-  border-bottom: 5px solid #333333;
+  font-size: 0;
+  background: url(../img/logo-sp.png) no-repeat 0 center;
+  background-size: 200px auto;
+  height: 50px;
+  border-bottom: 5px solid #ffcc00;
 }
 
 a {
@@ -46,7 +47,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 41px;
+  width: 52px;
 }
 
 .navigator {
@@ -59,11 +60,11 @@ img {
 
 .navigator li a {
   font-size: 117%;
-  padding: 7px 0 7px 3.125%;
+  padding: 12px 0 12px 3.125%;
   color: #ffffff;
   display: block;
   background: #333333 url(../img/ico-arrow_off.png) no-repeat 97% center;
-  background-size: 15px auto;
+  background-size: 13px auto;
 }
 
 /*===================================================

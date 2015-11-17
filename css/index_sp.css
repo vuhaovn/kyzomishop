@@ -24,7 +24,11 @@
 .bxslider img {
   width: 100%;
   height: auto;
-} 
+}
+
+.bx-wrapper {
+  margin: 0 auto 50px;
+}
 
 
 /*===================================================
@@ -38,7 +42,7 @@
 #article .article_title {
   border-top: 2px solid #ff0000;
   border-bottom: 1px solid #bdbdbd;
-  padding: 5px 0;
+  padding: 10px 0 8px;
   margin-bottom: 10px;
 }
 
@@ -70,10 +74,12 @@
 #article .products_list .name {
   text-align: center;
   padding: 5px 0 10px;
+  color: #ff0000;
+  font-weight: bold;
 }
 
 #article .products_list .prize {
-  text-align: right;
+  text-align: center;
   padding-top: 10px;
 }
 
