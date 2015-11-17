@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*===================================================
+  #slider
+===================================================*/
+
+#slider {
+  margin: 0 auto;
+  position: relative;
+}
+
+#slider ul {
+  overflow: hidden;
+}
+
+#slider li {
+  float: left;
+}
+
+.bxslider img {
+  width: 100%;
+  height: auto;
+} 
+
+
+/*===================================================
+  #contents
+===================================================*/
+
+#contents .inner {
+  overflow: hidden;
+}
+
+#aside {
+  width: 280px;
+  padding-right: 20px;
+  float: left;
+}
+
+#aside .banner_aside li {
+  margin-bottom: 20px;
+}
+
+#article {
+  width: 680px;
+  padding-left: 20px;
+  float: right;
+}
+
+#article .article_title {
+  border-top: 2px solid #ff0000;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+#article .article_title > h3 {
+  font-size: 150%;
+  font-weight: normal;
+  padding-left: 30px;
+}
+
+#article .article_section {
+  margin-bottom: 50px;
+}
+
+#article .products_list > ul {
+  overflow: hidden;
+}
+
+#article .products_list li {
+  float: left;
+  width: 150px;
+  margin: 0 10px;
+}
+
+#article .products_list a {
+  display: block;
+}
+
+#article .products_list a:hover {
+  text-decoration: underline;
+}
+
+#article .products_list .name {
+  font-size: 125%;
+  text-align: center;
+  padding: 5px 0 10px;
+}
+
+#article .products_list .prize {
+  text-align: right;
+  padding-top: 10px;
+  border-top: 1px dotted #000;
+}
+
+#article .products_list .money {
+  font-weight: bold;
+  font-size: 117%;
+}
+
+#article .products_list .ship {
+  color: #ff0000;
+}
