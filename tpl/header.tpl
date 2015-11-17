@@ -1,6 +1,7 @@
 <div id="header">
   <div class="inner">
     <h1>kyzomiShop</h1>
+    <span class="btn_menu"><img src="../img/btn-menu_off.png" alt=""></span>
     <div class="navigator">
       <ul>
         <li><a href="#">Trang chủ</a></li><!--

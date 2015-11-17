@@ -1,5 +1,20 @@
 ;(function($){
   "use strict";
+
+  var
+    $btn = null,
+    $menu = null;
+
+  var init = function(){
+
+    $btn = $(".btn_menu");
+    $menu = $(".navigator");
+
+    hoverImg();
+    backTop();
+    navigation();
+
+  };
   
   var hoverImg = function(){
     $("a img").on({
@@ -35,8 +50,24 @@
     });
   };
 
+  var navigation = function(){
+    $btn.on("click", function(event){
+      event.preventDefault();
+      var isOpen = $menu.is(":visible");
+
+      if (isOpen){
+        $menu.slideUp();
+        var src = $(this).find("img").attr("src").replace("_on","_off");
+        $(this).find("img").attr("src", src );
+      } else {
+        $menu.slideDown();
+        var src = $(this).find("img").attr("src").replace("_off","_on");
+        $(this).find("img").attr("src", src );
+      }
+    });
+  };
+
   $(function(){
-    hoverImg();
-    backTop();
+    init();
   });
 })(jQuery);

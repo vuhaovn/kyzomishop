@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+#aside {
+  display: none;
+}
+
+/*===================================================
+  #slider
+===================================================*/
+
+#slider {
+  margin: 0 auto;
+  position: relative;
+}
+
+#slider ul {
+  overflow: hidden;
+}
+
+#slider li {
+  float: left;
+}
+
+.bxslider img {
+  width: 100%;
+  height: auto;
+} 
+
+
+/*===================================================
+  #contents
+===================================================*/
+
+#contents .inner {
+  overflow: hidden;
+}
+
+#article .article_title {
+  border-top: 2px solid #ff0000;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+#article .article_title > h3 {
+  font-size: 125%;
+  font-weight: normal;
+  padding-left: 15px;
+}
+
+#article .article_section {
+  margin-bottom: 25px;
+}
+
+#article .products_list > ul {
+  overflow: hidden;
+  padding: 10px 3.125%;
+}
+
+#article .products_list li {
+  float: left;
+  width: 48%;
+  margin: 10px 0;
+}
+
+#article .products_list li:nth-child(2n+2) {
+  float: right;
+}
+
+#article .products_list .name {
+  text-align: center;
+  padding: 5px 0 10px;
+}
+
+#article .products_list .prize {
+  text-align: right;
+  padding-top: 10px;
+}
+
+#article .products_list .money {
+  font-weight: bold;
+}
+
+#article .products_list .ship {
+  color: #ff0000;
+}

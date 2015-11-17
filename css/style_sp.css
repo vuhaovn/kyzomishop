@@ -14,8 +14,10 @@ body {
 }
 
 h1 {
-  font-size: 300%;
-  text-align: center;
+  font-size: 200%;
+  padding-left: 3.125%;
+  height: 39px;
+  border-bottom: 5px solid #333333;
 }
 
 a {
@@ -23,19 +25,13 @@ a {
   color: #000000;
 }
 
-a:hover {
-  color: #ff0000;
+img {
+  width: 100%;
+  height: auto;
 }
 
-a:hover img {
-  opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
-}
-
-.inner {
-  width: 1000px;
-  margin: 0 auto;
+.bx-wrapper .bx-controls-direction a {
+  display: none;
 }
 
 /*===================================================
@@ -43,27 +39,31 @@ a:hover img {
 ===================================================*/
 
 #header .inner {
-  padding: 30px 0;
   position: relative;
 }
 
 #header .btn_menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 41px;
+}
+
+.navigator {
   display: none;
 }
 
-.navigator ul {
-  padding-top: 10px;
-  text-align: center;
-}
-
 .navigator li {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 15px;
+  border-bottom: 1px solid #ffffff;
 }
 
 .navigator li a {
   font-size: 117%;
+  padding: 7px 0 7px 3.125%;
+  color: #ffffff;
+  display: block;
+  background: #333333 url(../img/ico-arrow_off.png) no-repeat 97% center;
+  background-size: 15px auto;
 }
 
 /*===================================================
@@ -71,7 +71,10 @@ a:hover img {
 ===================================================*/
 
 #footer {
-  padding: 15px 0;
+  background: #000000;
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
 }
 
 /*===================================================
@@ -83,4 +86,5 @@ a:hover img {
   bottom: 10px;
   right: 10px;
   display: none;
+  width: 50px;
 }
